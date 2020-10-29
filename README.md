@@ -1,2 +1,2 @@
 # Projeto-Recode-Bootstrap
-Elaborar uma estilização com o auxilio do Bootsrap
+Elaborar uma estilização com o auxilio do Bootstrap
