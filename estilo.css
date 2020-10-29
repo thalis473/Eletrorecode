@@ -3,9 +3,9 @@
 /* menu topico de cima(padrao)*/
 #menu {
      padding-left: 10%;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-   
+    background-color: #ff5100e1;
 }
 
 
