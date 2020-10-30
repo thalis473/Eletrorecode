@@ -19,6 +19,10 @@
     width: 100%;
     
 }
+/* padding das imagens do index*/
+#imga{
+    padding-left: 30%;
+}
 
 section {
     text-align: center;
