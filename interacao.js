@@ -2,7 +2,7 @@
       function
       lista(produtos) {
 
-          let itens = document.getElementsByClassName('itens1');
+          let itens = document.getElementsByClassName('p1');
           for (var i = 0; i < itens.length; i++) {
               console.log(itens[i].id);
               if (produtos == itens[i].id)
@@ -13,7 +13,7 @@
       }
       /* codigo para o filtro das categorias */
       let todos = () => {
-          let itens = document.getElementsByClassName('itens1');
+          let itens = document.getElementsByClassName('p1');
           for (var i = 0; i < itens.length; i++) {
               itens[i].style = "display:block";
           }
@@ -29,23 +29,5 @@
               imagem.height = 100;
           }
       }
-      /* redirecionamento das imagens 'index'  com um evento diferente (onmouseout)*/
+     
       
-      let imagem_produtos = (imagem) => {
-          if (imagem.width == 100) {
-              imagem.width = 200;
-              imagem.height = 200;
-          } else {
-              imagem.width = 100;
-              imagem.height = 100;
-          }
-      }
-
-      /* pagina "contatos" damos uma mensagem de agradecimento ao usuario que
-       preencher o formulario atravez da funçao (onclick)*/
-
-      function enviar() {
-
-          alert("Agradecemos pela colaboração!");
-
-      }
